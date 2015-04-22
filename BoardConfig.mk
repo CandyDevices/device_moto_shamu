@@ -72,6 +72,12 @@ TARGET_BOARD_PLATFORM := msm8084
 TARGET_BOOTLOADER_BOARD_NAME := shamu
 TARGET_NO_RPC := true
 
+# Toolchains and Optimizations
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8-sm/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+SUGARRUSH=true
+KRAIT_TUNINGS=true
+
 TARGET_BOARD_INFO_FILE := device/moto/shamu/board-info.txt
 
 USE_OPENGL_RENDERER := true
