@@ -316,4 +316,8 @@
         <item>INTERMEDIATE_POS=0</item>
         <item>SUPL_ES=0</item>
     </string-array>
+
+    <!-- HW key disabler -->
+    <bool name="config_hwKeysPref">true</bool>
+  
 </resources>
