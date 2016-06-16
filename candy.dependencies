@@ -1,10 +1,14 @@
 [
   {
-    "repository": "kernel_moto_shamu",
-    "target_path": "kernel/moto/shamu",
+    "remote":     "github",  
+    "repository": "TheMuppets/proprietary_vendor_motorola",
+    "target_path": "vendor/motorola",
+    "branch": "cm-13.0"
   },
   {
-    "repository": "proprietary_vendor_motorola",
-    "target_path": "vendor/motorola",
+    "remote":      "github",  
+    "repository": "B14CKB1RD-Kernel/B14CKB1RD_Kernel_N6",
+    "target_path": "kernel/moto/shamu",
+    "branch": "mm6.0"
   }
 ]
