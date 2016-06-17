@@ -6,6 +6,12 @@
     "branch": "cm-13.0"
   },
   {
+    "remote":     "github",  
+    "repository": "REV3NT3CH/arm-eabi-6.x",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-6.x-hyper",
+    "branch": "UxSM"
+  },
+  {
     "remote":      "github",  
     "repository": "B14CKB1RD-Kernel/B14CKB1RD_Kernel_N6",
     "target_path": "kernel/moto/shamu",
