@@ -1,0 +1,22 @@
+[
+ {
+  "remote":      "github",
+  "repository":  "B14CKB1RD-Kernel/B14CKB1RD_Kernel_N6",
+  "target_path": "kernel/moto/shamu",
+  "branch":      "n7.1"
+ },
+
+ {
+  "remote":      "bb",
+  "repository":  "REV3NT3CH/arm-linux-gnueabi-6.x",
+  "target_path": "prebuilts/gcc/linux-x86/arm/arm-linux-gnueabi-6.x",
+  "branch":      "n"
+ },
+
+ {
+  "remote":      "github",
+  "repository":  "PureNexusProject/proprietary_vendor_moto",
+  "target_path": "vendor/moto",
+  "branch":      "android-7.1"
+ }
+] 
